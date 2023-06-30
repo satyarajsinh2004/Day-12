@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse event up and down</title>
+</head>
+<body>
+    <h1>MOUSE UP&DOWN EVENT JS</h1>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:#73d938;width:100px;height:50px;padding:80px; margin-left: 100px;">
+Click Me</div>
+
+<script>
+function mDown(obj) {
+  obj.style.backgroundColor = "#0000ff";
+  obj.innerHTML = "HELLO";
+}
+
+function mUp(obj) {
+  obj.style.backgroundColor="#00ff00";
+  obj.innerHTML="HOW ARE YOU";
+}
+</script>
+
+    
+</body>
+</html>

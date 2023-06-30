@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom mouse event</title>
+</head>
+<body>
+    <h1>mouse event JS</h1>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#38d960;width:200px;height:40px;padding:40px;">
+        Mouse Over Me</div>
+        
+
+    <script>
+        function mOver(obj) {
+          obj.innerHTML = "Thank You"
+        }
+        
+        function mOut(obj) {
+          obj.innerHTML = "Mouse Over Me"
+        }
+     </script>
+        
+</body>
+</html>
